@@ -27,13 +27,6 @@ CONFIG_BUSYBOX_CONFIG_FEATURE_PREFER_IPV4_ADDRESS=y
 CONFIG_BUSYBOX_CONFIG_FEATURE_SH_HISTFILESIZE=y
 CONFIG_BUSYBOX_CONFIG_FEATURE_SYSLOG_INFO=y
 
-# Dnsmasq
-CONFIG_PACKAGE_dnsmasq-full=y
-CONFIG_PACKAGE_dnsmasq_full_dhcp=y
-CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
-# CONFIG_PACKAGE_dnsmasq_full_ipset is not set
-CONFIG_PACKAGE_dnsmasq_full_nftset=y
-
 # Nginx
 CONFIG_PACKAGE_nginx-ssl=y
 CONFIG_PACKAGE_nginx-mod-brotli=y
